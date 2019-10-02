@@ -1,0 +1,90 @@
+.clearfix{content:""; clear:both; display:table;}
+
+div,a, input, textarea, button{box-sizing: border-box;}
+
+header{
+    text-align: center;
+    margin:15px 0px;
+}
+header a img{
+    width: 70%;
+}
+
+body{
+    margin:0;
+}
+.gnb{
+    margin:0; padding:0;
+    overflow:hidden;
+    list-style: none;
+    background-color:black;
+    margin-bottom: 24px;
+}
+.gnb li{
+    float:left;
+    width:20%;
+}
+.gnb li.right{
+    float:left;
+}
+.gnb li a{
+    font-size: 61%;
+    text-align:center;
+    display:block;
+    text-decoration:none;
+    padding:10px 10px;
+    color: white;
+    font-weight: bold;
+}
+.gnb li a:hover{
+    background-color:blue;
+    color:white;
+}
+.gnb .active{
+    background-color:blue;
+    color:white;
+}
+footer{
+    margin-top:50px; margin-bottom: 30px; text-align: center; font-size:150%;
+}
+section{margin:auto; width:98%;}
+section#gameContainer{width:1000px;}
+#ctx{width:100%}
+section img{
+    width:50%;
+}
+section p{font-size:200%; font-weight: bold;}
+#myCanvas {
+    background-color: rgb(0, 88, 0);
+    border-radius: 50px;
+}
+#clock{display:block; width:350px; height:200px; position: relative; margin: auto;}
+
+.time {
+    font-family: 'Digital Dismay';
+    font-size: 500%;
+    color: lime;
+    position: absolute;
+    top: 35px;
+}
+
+#hour {
+    left: 40px;
+}
+
+#min {
+    left: 140px;
+}
+
+#sec {
+    left: 240px;
+}
+.carousel{
+    margin:auto;
+    width:1000px;
+}
+
+.carousel-item{
+    height:500px;
+}
+/* .carousel-item img{height:100%;} */

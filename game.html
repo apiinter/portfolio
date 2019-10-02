@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>홈페이지</title>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+   <style>
+      #ctx {
+         background-image: url("img/field.png");
+         background-size: 100%;
+         cursor: none;
+      }
+   </style>
+</head>
+
+<body>
+   <!-- 글로벌 메뉴 바 -->
+   <!-- 헤더 -->
+   <header>
+      <a href="index.html"><img src="img/300.png" alt="logo"></a>
+      <!-- /(루트)아래 myhome 디렉토리에 index.html을 연결 -->
+   </header>
+   <!-- 전역 메뉴 바 -->
+   <ul class="gnb navbar navbar-dark bg-primary">
+      <li><a href="index.html"><i class="fas fa-home"></i> 홈</a></li>
+      <li><a href="portfolio/calc.html"><i class="fas fa-calculator"></i> 계산기</a></li>
+      <li><a href="board/list.html"><i class="fas fa-edit"></i> 유머글</a></li>
+      <li><a href="clock.html"><i class="fas fa-clock"></i> 시계</a></li>
+      <li><a href="game.html" class="active"><i class="fas fa-gamepad"></i> 게임</a></li>
+   </ul>
+   <div class="clearfix"></div>
+   <!-- 컨텐츠 -->
+   <section id="gameContainer">
+      <canvas id="ctx" width="1500" height="700" style="border:1px solid #000000;"></canvas> <!-- 캔버스 생성 -->
+   </section>
+   <!-- 풋터 -->
+   <footer>경기도 수원시 장안구 정조로</footer>
+   <script src="js/game.js"></script>
+</body>
+
+</html>

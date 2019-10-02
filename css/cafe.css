@@ -1,0 +1,90 @@
+.content {width:90%; margin-left:auto; margin-right:auto; margin-bottom:10px;}
+
+/* .content table, */
+/* .content table td,
+.content table th{
+    border: 1px solid lightgray;
+    padding:5px 10px;
+    text-align:center;
+} */
+img{
+    width:325px;
+}
+
+/* .content table th{
+    background-color: yellow;    
+} */
+
+.content table td.title, .content table td.text
+{text-align:left;}
+
+.content table{border-collapse: collapse; width:100%;}
+
+.content table .sn{width: 5%;}
+.content table .title{width: 35%;}
+.content table .author{width: 20%;}
+.content table .created{width: 20%;}
+.content table .attached{width: 20%;}
+
+
+.content a{text-decoration: none; color:black;}
+.content a:hover{
+    color:red;
+}
+.content .fixed{width:50px;}
+
+.font08{font-size:0.8em;}
+.font2{font-size: 2em;}
+
+
+/* detail2.html 상세페이지 시작 */
+.content div.title{font-size:2em;} 
+.content .info span{color:gray;}
+/* detail2.html 상세페이지 끝 */
+
+.space{width:2em; display:inline-block;}
+.content .info {margin-top:1em; margin-bottom: 1.5em; text-align:left;}
+
+.content .menu{text-align:center; border-top:1px solid lightgray; padding-top:5px; margin-top:24px;}
+
+/* .content .menu button{
+    background-color: lightgray; padding:10px 15px; border:none; 
+    border-radius:3px;
+} */
+/* .content .menu button:hover, .notice button:hover{
+    background-color: gray;
+    color:white;
+} */
+
+
+/* 삭제베이지 시작 */
+.notice {
+    width:450px;
+    margin:auto;
+    color:white;
+    background-color: #333;
+    margin-bottom: 1.5em;
+    
+}
+.notice div{text-align:center; padding:15px;}
+.notice p{padding: 10px 15px; text-align:center; color:yellow;}
+.notice p::before{content:"{ ";}
+.notice p::after{content:" }";}
+.notice button{
+    width:70px;
+}
+.content h1{
+    margin-bottom:30px;
+}
+/* 삭제베이지 끝 */
+/* 글 작성 시작 */
+.content div.title {font-size:initial;} 
+.content form input,
+.content form textarea{
+    display:block;
+    width:100%;
+    margin:initial;
+}
+/* label에 width를 적용하기 위해 display inline-block */
+.content div.title label{width:55px; display: inline-block; margin-bottom:6px;}
+.content div.title input{width:100%; padding:5px;}

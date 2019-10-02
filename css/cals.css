@@ -1,0 +1,76 @@
+*{margin:0; padding:0; box-sizing: border-box;}
+
+.calc{
+    width:360px;
+    height:470px;
+    margin-left:auto;
+    margin-right: auto;
+    padding-top:12px;
+    background-color:lightgray;
+    border-radius:8%;
+}
+.calc .maker{
+    height:40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px; 
+}
+
+.disp{
+    width:336px;
+    height:100px;
+    border-radius: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:15px;
+    background-color: white;
+    padding: 5px 10px;
+    text-align: left;
+    font-size:20px;
+    font-weight: bold;
+    overflow-y: auto;
+    -ms-overflow-style:hide;
+    overflow-wrap: break-word;
+}
+.calc .btns{
+    width:340px;
+    margin-left:auto; margin-right:auto;
+}
+.calc .btns a{
+    cursor: pointer;
+    display:block;
+    width:64px; height:64px;
+    float:left;
+    margin:2px;
+    border-radius:50%;
+    text-decoration: none;
+    font-size:42px;
+    text-align: center;
+    color:white;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.calc .btns .btn_numb{
+    background-color:green;
+}
+.calc .btns .btn_sign{
+    background-color:blue;
+}
+
+.calc .btns a:hover{
+    background-color:red;
+    color:yellow;
+}
+section{
+    background-image: url("../img/math.jpg")
+}
+
+#times{
+    padding-top:9px;
+}

@@ -1,24 +1,14 @@
 .content {width:90%; margin-left:auto; margin-right:auto; margin-bottom:10px;}
 
-/* .content table, */
-/* .content table td,
-.content table th{
-    border: 1px solid lightgray;
-    padding:5px 10px;
-    text-align:center;
-} */
 img{
-    width:325px;
+    width:600px;
 }
 
-/* .content table th{
-    background-color: yellow;    
-} */
 
 .content table td.title, .content table td.text
 {text-align:left;}
 
-.content table{border-collapse: collapse; width:100%;}
+.content table{border-collapse: collapse; width:100%; font-size: 20px;}
 
 .content table .sn{width: 5%;}
 .content table .title{width: 35%;}
@@ -26,14 +16,15 @@ img{
 .content table .created{width: 20%;}
 .content table .attached{width: 20%;}
 
+.write{font-size:1.5em;}
 
 .content a{text-decoration: none; color:black;}
 .content a:hover{
-    color:red;
+    color:blue;
 }
 .content .fixed{width:50px;}
 
-.font08{font-size:0.8em;}
+.font08{font-size:1.5em;}
 .font2{font-size: 2em;}
 
 
@@ -47,24 +38,12 @@ img{
 
 .content .menu{text-align:center; border-top:1px solid lightgray; padding-top:5px; margin-top:24px;}
 
-/* .content .menu button{
-    background-color: lightgray; padding:10px 15px; border:none; 
-    border-radius:3px;
-} */
-/* .content .menu button:hover, .notice button:hover{
-    background-color: gray;
-    color:white;
-} */
-
-
-/* 삭제베이지 시작 */
 .notice {
     width:450px;
     margin:auto;
     color:white;
     background-color: #333;
     margin-bottom: 1.5em;
-    
 }
 .notice div{text-align:center; padding:15px;}
 .notice p{padding: 10px 15px; text-align:center; color:yellow;}
@@ -78,7 +57,6 @@ img{
 }
 /* 삭제베이지 끝 */
 /* 글 작성 시작 */
-.content div.title {font-size:initial;} 
 .content form input,
 .content form textarea{
     display:block;

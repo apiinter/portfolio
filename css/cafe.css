@@ -11,8 +11,8 @@ img{
 .content table{border-collapse: collapse; width:100%; font-size: 20px;}
 
 .content table .sn{width: 5%;}
-.content table .title{width: 35%;}
-.content table .author{width: 20%;}
+.content table .title{width: 30%;}
+.content table .author{width: 15%;}
 .content table .created{width: 20%;}
 .content table .attached{width: 20%;}
 

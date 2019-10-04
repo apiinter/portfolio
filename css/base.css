@@ -12,7 +12,10 @@ header a img{
 
 body{
     margin:0;
+    background-color:#f2f4f7;
+    padding:10px 0;
 }
+#frame{width:1600px; background-color: white; margin:auto;padding:10px 0;}
 .gnb{
     margin:0; padding:0;
     overflow:hidden;
